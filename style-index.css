@@ -1,0 +1,144 @@
+
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: rgb(0, 255, 60);
+    display: inline-flex;
+    justify-content: space-around;
+    align-items:center;
+    z-index: 100;
+}
+.logotipo{
+    font-size: 25px;
+    color: rgb(21, 96, 0);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.menu a{
+    font-size: 18px;
+    color: rgb(3, 75, 0);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+    transition: .3s;
+}
+
+.menu a:hover{
+    color: rgb(255, 255, 255);
+}
+
+#bg_img {
+    background: url("desenvolvimento-sustentavel.jpg");
+    height: 550px;
+    text-align: center;
+    background-size: cover;
+}
+
+#title {
+    color: #ffffff;
+    padding-top: 20%;
+    font-size: 40px;
+}
+
+#subtitle {
+    color: #ffffff;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+#acao {
+    color: #ffffff;
+    border: 1px solid #000000; 
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#introducao{
+    background-color: #FFFFFF;
+    padding: 20px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+#acoes{
+    background-color: #317708;
+}
+
+.coluna{
+    float: left;
+    padding: 2%;
+    position: relative;
+    width: 50%;
+}
+
+.centralizado{
+    text-align: center;
+}
+
+.segundacoluna{
+    float: left;
+    padding: 1%;
+    position: relative;
+    width: 20%;
+}
+
+.icones{
+width: 50px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+#prox{
+    text-align: center;
+}
+
+#contato{
+    text-align: center;
+    font-size: 30px;
+}
+
+form{
+    width: 90%;
+    min-width: 29em;
+    max-width: 35em;
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+}
+
+fieldset{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+label,
+input,
+textarea{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input, 
+textarea{
+    background-color: rgb(213, 212, 212);
+    border: 2px solid transparent;
+    
+}
+
+
